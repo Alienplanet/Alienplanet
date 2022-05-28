@@ -75,6 +75,7 @@ class _AlbumInfoScreenState extends State<AlbumInfoScreen> {
                         boxShape: NeumorphicBoxShape.circle(),
                         shadowDarkColor: Color(0xFF626262)),
                   ),
+                  // delete this comment next time
                   CircleAvatar(
                     backgroundImage: widget.albumArt
                         == null
